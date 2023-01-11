@@ -8,8 +8,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
     "@babel/core": "^7.20.12",
+    "@ignite-ui/eslint-config": "*",
     "@storybook/addon-actions": "^6.5.15",
     "@storybook/addon-essentials": "^6.5.15",
     "@storybook/addon-interactions": "^6.5.15",
@@ -24,6 +24,7 @@
   "dependencies": {
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
