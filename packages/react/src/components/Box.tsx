@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react'
+import { ComponentProps, ElementType } from 'react'
 
 import { styled } from '../styles'
 
@@ -9,4 +9,6 @@ export const Box = styled('div', {
   backgroundColor: '$gray800',
 })
 
-export type BoxProps = ComponentProps<typeof Box>
+export type BoxProps = ComponentProps<typeof Box> & {
+  as?: ElementType
+}
